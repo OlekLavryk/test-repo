@@ -1,6 +1,9 @@
 #include <iostream>
 
 int main(){
-    std::cout << "Hello world!";
+    char b = 'B';
+    char next = b+1;
+
+    std::cout << "Hello world! " << next << std::endl;
     return 0;
 }
